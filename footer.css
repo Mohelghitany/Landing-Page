@@ -1,0 +1,66 @@
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #283646;
+    
+}
+
+.lol{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.coz {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto ;
+    max-width: 1200px;
+    
+}
+
+.coz ul,.lol ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.coz li,.lol li {
+    margin-right: 20px;
+}
+
+.coz a {
+    color: #fff;
+    text-decoration: none;
+    font: 1em 'Roboto', sans-serif;
+}
+.lol a {
+    color:inherit;
+ 
+    text-decoration: none;
+    font: 15px 'Roboto', sans-serif;
+}
+#input {
+    padding: 7px 15px ;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#cat{
+    size: 90px;
+    margin-left: -50px;
+}
+
+
+.copyright {
+    font-size: 14px;
+}
+#k{
+    margin-right: 520px;
+    margin-top: 100px;
+}
