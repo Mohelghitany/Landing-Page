@@ -433,3 +433,116 @@ div.inside img {
     
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .hero,
+    .hey,
+    .imagee,
+    .mohamed,
+    #help,
+    .container,
+    .card-container,
+    .sec,
+    .card-sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero-content,
+    .hey-content,
+    .hey-images,
+    .inside,
+    .card,
+    .head,
+    #last,
+    #lastc {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .hero-buttons,
+    .list-items,
+    .imagee,
+    .card-container,
+    .card-sec {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .hero-overlay {
+        width: 100%;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+
+    .image-container,
+    .image-text {
+        width: 100%;
+        text-align: center;
+    }
+
+    .header,
+    .head {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .list-items,
+    .list-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #flash,
+    #bolt {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    #last,
+    #lastc {
+        width: 100%;
+        margin: 0;
+    }
+
+    .hero-content h1,
+    .hey-content h1,
+    .header h1,
+    .head h1 {
+        font-size: 2em;
+    }
+
+    .hero-content p,
+    .hey-content p,
+    .card p,
+    .header p,
+    .head p {
+        font-size: 1em;
+    }
+}
