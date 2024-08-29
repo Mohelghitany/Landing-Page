@@ -472,6 +472,8 @@ div.inside img {
         width: 100%;
         padding: 0 10px;
         box-sizing: border-box;
+        margin-bottom: 20px;
+        /* Add bottom margin */
     }
 
     .hero-buttons,
@@ -483,7 +485,8 @@ div.inside img {
         flex-wrap: wrap;
         justify-content: center;
         width: 100%;
-        gap: 10px;
+        gap: 20px;
+        /* Add gap between items */
     }
 
     .hero-overlay {
@@ -496,6 +499,8 @@ div.inside img {
     .image-text {
         width: 100%;
         text-align: center;
+        margin-bottom: 20px;
+        /* Add bottom margin */
     }
 
     .header,
@@ -503,6 +508,8 @@ div.inside img {
         width: 100%;
         text-align: center;
         margin: 0;
+        margin-bottom: 20px;
+        /* Add bottom margin */
     }
 
     .list-items,
@@ -512,23 +519,30 @@ div.inside img {
         align-items: center;
         text-align: center;
         width: 100%;
+        margin-bottom: 20px;
+        /* Add bottom margin */
     }
 
     .card {
         width: 100%;
         margin-bottom: 20px;
+        /* Add bottom margin */
     }
 
     #flash,
     #bolt {
         width: 100%;
         margin: 0 auto;
+        margin-bottom: 20px;
+        /* Add bottom margin */
     }
 
     #last,
     #lastc {
         width: 100%;
         margin: 0;
+        margin-bottom: 20px;
+        /* Add bottom margin */
     }
 
     .hero-content h1,
