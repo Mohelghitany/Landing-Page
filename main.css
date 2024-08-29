@@ -6,7 +6,7 @@ body {
 
 
 #hi {
-    background-image: url('https://github.com/Mohelghitany/Landing-Page/blob/main/images/back.png');
+    background-image: url('./images/back.png');
     color: white;
     background-size: cover;
     background-position: center;
@@ -207,7 +207,7 @@ body {
 }
 
 #green{
-    background-image: url('https://github.com/Mohelghitany/Landing-Page/blob/main/images/wow.png');
+    background-image: url('./images/wow.png');
     background-size: cover;
     background-position: center;
     color: white;
@@ -264,8 +264,9 @@ div.inside img {
 }
 
 #help {
-    background-image: url('https://github.com/Mohelghitany/Landing-Page/blob/main/imagesbe.png');
+    background-image: url('./images/be.png');
     background-size: cover;
+    padding: 50px;
     background-position: center;
 }
 #helpin{
